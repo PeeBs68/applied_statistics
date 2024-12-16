@@ -68,7 +68,7 @@ The **`project.ipynb`** notebook follows these key steps:
    - Box plots and histograms are generated to visualize the distribution of plant weights across different treatment groups.
 
 #### 3. **t-Test (Two-Sample Comparison)**
-   - A **two-sample t-test** is performed to compare the plant weights between two groups, such as the **control group** (`ctrl`) and **treatment 1** (`trt1`).
+   - A **two-sample t-test** is performed to compare the plant weights between two groups, such as the **control group** (`trt1`) and **treatment 1** (`trt2`).
    - The notebook checks for the assumptions of normality and equal variances (for the t-test).
    - The p-value from the t-test helps in determining whether the difference in mean weights is statistically significant.
 
@@ -85,7 +85,7 @@ The **`project.ipynb`** notebook follows these key steps:
 
 After running the notebook, you will obtain:
 - **Descriptive statistics** for each treatment group.
-- **t-test results** comparing specific pairs of treatment groups (e.g., `ctrl` vs `trt1`).
+- **t-test results** comparing specific pairs of treatment groups (e.g., `trt1` vs `trt2`).
 - **ANOVA results** for testing differences across all three groups (`ctrl`, `trt1`, and `trt2`).
 - **Visualizations** that depict the distribution of plant weights and highlight statistically significant differences.
 
