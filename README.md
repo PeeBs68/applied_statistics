@@ -1,8 +1,9 @@
-# **Applied Statistics: Analyzing PlantGrowth Dataset using t-test and ANOVA**
+# **Applied Statistics: 
 
-This repository contains a Jupyter notebook titled **`project.ipynb`**, which performs statistical analysis on the well-known **PlantGrowth** dataset. The notebook applies **t-test** and **ANOVA** methods to evaluate the impact of different treatment conditions on plant growth.
+This repository contains two Jupyter notebooks. The first notebook, titled **`project.ipynb`**, performs statistical analysis on the well-known **PlantGrowth** dataset. The notebook applies **t-test** and **ANOVA** methods to evaluate the impact of different treatment conditions on plant growth.   
+The second notebook, titled **`tasks.ipynb`**, contains four sections analysing various different statistical methods - **Permutations and Combinations**, **Normal Distribution**, **$t$ tests** and **ANOVA**.
 
-## **Overview**
+## **Project Overview**
 
 The **PlantGrowth** dataset is commonly used for statistical analysis and machine learning exercises. It consists of the following variables:
 - **Weight**: The weight of plants measured after a certain growth period.
@@ -88,6 +89,76 @@ After running the notebook, you will obtain:
 - **t-test results** comparing specific pairs of treatment groups (e.g., `trt1` vs `trt2`).
 - **ANOVA results** for testing differences across all three groups (`ctrl`, `trt1`, and `trt2`).
 - **Visualizations** that depict the distribution of plant weights and highlight statistically significant differences.
+
+
+## **Tasks Overview**
+
+This notebook walks through the process of:
+1. Investigating **Permutations and Combinations** using the "Lady Tasting Tea Experiment"
+2. Validating the accurmacy of numpy's **Normal Distribution**
+3. Using different methods to perform **$t$ tests**
+4. Performing **ANOVA tests** and estimating possibilities of commiting a type II error.
+
+## **Requirements**
+
+To run the analysis in this notebook, you need to have the following Python packages installed:
+
+- `numpy`
+- `pandas`
+- `scipy`
+- `matplotlib`
+- `seaborn`
+
+You can install these dependencies using `pip`:
+
+```bash
+pip install numpy pandas scipy matplotlib seaborn
+```
+
+Alternatively, you can install all the required dependencies from the `requirements.txt` file (if provided):
+
+```bash
+pip install -r requirements.txt
+```
+
+## **Usage**
+
+### **Steps to Run the Analysis**
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/PeeBs68/applied_statistics
+   ```
+
+2. Launch Jupyter Notebook:
+
+   ```bash
+   jupyter notebook tasks.ipynb
+   ```
+
+3. Open the notebook in your browser and run the cells to perform the analysis.
+
+### **Notebook Workflow**
+
+The **`tasks.ipynb`** notebook follows these key steps:
+
+#### 1. **Permutations and COmbination**
+   - Calculates the probability of selecting six correct cups from 12.
+   - Investigates the probability of making at most one, then two errors.
+
+#### 2. **numpy Normal Distribution**
+   - Assess whether numpy.random.normal generates normal values.
+   - Uses Histograms and Probability Density Function to graph the outputs.
+
+#### 3. **t-Tests**
+   - Performs a $t$ test on two groups of data
+   - Compares the $t$ statistic produced using the standard formula and scipy.stats.
+
+#### 4. **ANOVA and type II errors**
+   - Using numpy.random.normal to produce sample data
+   - Performs one way anova tests to generate $t$ statistic values
+   - Calculates the probability of committing a type II error.
 
 ---
 
