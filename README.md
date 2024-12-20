@@ -1,9 +1,9 @@
-# **Applied Statistics: 
+# **Applied Statistics:**
 
 This repository contains two Jupyter notebooks. The first notebook, titled **`project.ipynb`**, performs statistical analysis on the well-known **PlantGrowth** dataset. The notebook applies **t-test** and **ANOVA** methods to evaluate the impact of different treatment conditions on plant growth.   
 The second notebook, titled **`tasks.ipynb`**, contains four sections analysing various different statistical methods - **Permutations and Combinations**, **Normal Distribution**, **$t$ tests** and **ANOVA**.
 
-## **Project Overview**
+## **Project Overview (project.ipynb)**
 
 The **PlantGrowth** dataset is commonly used for statistical analysis and machine learning exercises. It consists of the following variables:
 - **Weight**: The weight of plants measured after a certain growth period.
@@ -91,13 +91,13 @@ After running the notebook, you will obtain:
 - **Visualizations** that depict the distribution of plant weights and highlight statistically significant differences.
 
 
-## **Tasks Overview**
+## **Tasks Overview (tasks.ipynb)**
 
 This notebook walks through the process of:
 1. Investigating **Permutations and Combinations** using the "Lady Tasting Tea Experiment"
-2. Validating the accurmacy of numpy's **Normal Distribution**
+2. Validating the accuracy of numpy's **Normal Distribution**
 3. Using different methods to perform **$t$ tests**
-4. Performing **ANOVA tests** and estimating possibilities of commiting a type II error.
+4. Performing **ANOVA tests** and estimating possibilities of committing a type II error.
 
 ## **Requirements**
 
@@ -143,7 +143,7 @@ pip install -r requirements.txt
 
 The **`tasks.ipynb`** notebook follows these key steps:
 
-#### 1. **Permutations and COmbination**
+#### 1. **Permutations and Combination**
    - Calculates the probability of selecting six correct cups from 12.
    - Investigates the probability of making at most one, then two errors.
 
@@ -151,14 +151,14 @@ The **`tasks.ipynb`** notebook follows these key steps:
    - Assess whether numpy.random.normal generates normal values.
    - Uses Histograms and Probability Density Function to graph the outputs.
 
-#### 3. **t-Tests**
-   - Performs a $t$ test on two groups of data
+#### 3. **$t$ Tests**
+   - Performs a $t$ test on two groups of data.
    - Compares the $t$ statistic produced using the standard formula and scipy.stats.
 
 #### 4. **ANOVA and type II errors**
-   - Using numpy.random.normal to produce sample data
-   - Performs one way anova tests to generate $t$ statistic values
-   - Calculates the probability of committing a type II error.
+   - Using numpy.random.normal to produce sample data.
+   - Performs one way anova tests to generate $t$ statistic values.
+   - Calculates the probability of committing type II errors.
 
 ---
 
